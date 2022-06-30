@@ -20,7 +20,7 @@ Input point clouds are provided in files named "pointCloudi.txt", where i is an 
 - Clean but with local deformations.
 
 ### Ground truth and mandatory output
-The participants were asked to return, for the $i$-th point cloud, a file "pointCloudi\_prediction.txt"; the corresponding ground truth file is named "GTpointCloudi.txt".
+The participants were asked to return, for the i-th point cloud, a file "pointCloudi\_prediction.txt"; the corresponding ground truth file is named "GTpointCloudi.txt".
 
 Each of such files contains a column vector. The first entry is the primitive type: 1=plane, 2=cylinder, 3=sphere, 4=cone, 5=torus. The remaining entries depends on the primitive type:
 - *Plane*. The vector lists the unit normal vector and a point sampled on the plane. For example, "GTpointCloud1.txt" in the training set is sampled from a plane having unit normal vector 
@@ -38,6 +38,9 @@ Each of such files contains a column vector. The first entry is the primitive ty
     <div style="text-align: center;">[0.822071130738891, 0.0766518567043369, 0.564201691657744]</div> 
     and center [0,0,0].
 The reader is reminded to [1] for a complete description of the dataset and of the ground truth.
+
+### Output of the track participants
+The results provided by the track participants are collected inside the folder ``methods".
 
 ### References
 [1]  C. Romanengo, A. Raffo, S. Biasotti, B. Falcidieno, V. Fotis, I. Romanelis, E. Psatha, K. Moustakas, I. Sipiran, Q.-T. Nguyen, C.-B. Chu, K.-N. Nguyen-Ngoc, D.-K. Vo, T.-A. To, N.-T. Nguyen, N.-Q. Le-Pham, H.-D. Nguyen, M.-T. Tran, Y. Qie, N. Anwer. "SHREC 2022: Fitting and recognition of simple geometric primitives on point clouds". ArXiv: arXiv:2206.07636.

@@ -19,5 +19,13 @@ Input point clouds are provided in files named "pointCloudi.txt", where i is an 
 - Perturbed by Gaussian noise of different intensity and affected by missing parts.
 - Clean but with local deformations.
 
+### Ground truth and mandatory output
+The participants were asked to return, for the $i$-th point cloud, a file "pointCloudi\_prediction.txt"; the corresponding ground truth file is named "GTpointCloudi.txt".
+
+Each of such files contains a column vector. The first entry is the primitive type: 1=plane, 2=cylinder, 3=sphere, 4=cone, 5=torus. The remaining entries depends on the primitive type:
+- *Plane*. The vector lists (one of) the (two) unit normal(s) vector (see [1]) and a point sampled on the plane. For example, "``"GTpointCloud1.txt" is sampled from a plane having unit normal vector <p style="text-align: center;">[0.849231978395892, 0.525751207196367, 0.0488949384022809]</p> and passing through <p style="text-align: center;">[10.3882508683517, 27.3806667550332, 25.4929773938063].</p>
+    %
+
+
 ### References
 [1]  C. Romanengo, A. Raffo, S. Biasotti, B. Falcidieno, V. Fotis, I. Romanelis, E. Psatha, K. Moustakas, I. Sipiran, Q.-T. Nguyen, C.-B. Chu, K.-N. Nguyen-Ngoc, D.-K. Vo, T.-A. To, N.-T. Nguyen, N.-Q. Le-Pham, H.-D. Nguyen, M.-T. Tran, Y. Qie, N. Anwer. "SHREC 2022: Fitting and recognition of simple geometric primitives on point clouds". ArXiv: arXiv:2206.07636.

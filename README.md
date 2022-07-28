@@ -43,4 +43,4 @@ The reader is reminded to [1] for a complete description of the dataset and of t
 The results provided by the track participants are collected inside the folder ``methods".
 
 ### References
-[1]  C. Romanengo, A. Raffo, S. Biasotti, B. Falcidieno, V. Fotis, I. Romanelis, E. Psatha, K. Moustakas, I. Sipiran, Q.-T. Nguyen, C.-B. Chu, K.-N. Nguyen-Ngoc, D.-K. Vo, T.-A. To, N.-T. Nguyen, N.-Q. Le-Pham, H.-D. Nguyen, M.-T. Tran, Y. Qie, N. Anwer. "SHREC 2022: Fitting and recognition of simple geometric primitives on point clouds". ArXiv: arXiv:2206.07636.
+[1]  C. Romanengo, A. Raffo, S. Biasotti, B. Falcidieno, V. Fotis, I. Romanelis, E. Psatha, K. Moustakas, I. Sipiran, Q.-T. Nguyen, C.-B. Chu, K.-N. Nguyen-Ngoc, D.-K. Vo, T.-A. To, N.-T. Nguyen, N.-Q. Le-Pham, H.-D. Nguyen, M.-T. Tran, Y. Qie, N. Anwer. "SHREC 2022: Fitting and recognition of simple geometric primitives on point clouds", Volume 107, 2022, Pages 32-49, https://doi.org/10.1016/j.cag.2022.07.004.
